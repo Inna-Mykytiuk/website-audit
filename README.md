@@ -1,4 +1,4 @@
-#Plerdy Website Audit Landing Page
+# Plerdy Website Audit Landing Page
 
 This project is a responsive landing page designed to showcase the website audit process for
 improving SEO and conversions. It offers a seamless user experience across various devices, with
@@ -64,4 +64,4 @@ view different service offerings interactively.
 Includes a contact form for users to provide feedback or inquiries, ensuring seamless communication
 and engagement with visitors.
 
-![preview](https://github.com/Inna-Mykytiuk/website-audit-landing-page/blob/main/assets/presentation1.jpg)
+![preview](https://github.com/Inna-Mykytiuk/website-audit/blob/main/assets/presentation1.jpg)
