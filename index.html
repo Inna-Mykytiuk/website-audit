@@ -21,6 +21,10 @@
       href="https://cdn.jsdelivr.net/npm/intl-tel-input@23.8.1/build/css/intlTelInput.css"
     />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <link rel="stylesheet" href="./styles/style.css" />
     <title>Plerdy</title>
   </head>
@@ -101,9 +105,9 @@
               <img src="./assets/images/modalImg.png" alt="Sample Image" class="modal-img" />
             </div>
             <div class="modal-info">
-              <h1 class="modal-info__title">
+              <h2 class="modal-info__title">
                 How to do a Website Audit to Improve SEO & Conversions
-              </h1>
+              </h2>
               <p class="modal-info__text">You will get an SMS with a link to the webinar</p>
               <form class="modal-form" id="myForm">
                 <div class="modal-form__group">
@@ -198,10 +202,26 @@
               </div>
             </div>
             <div class="hero-img__block">
-              <img src="./assets/images/hero.png" alt="logo" class="hero-img" />
-              <img src="./assets/images/graph1.png" alt="graph1" class="graph1" />
-              <img src="./assets/images/graph2.png" alt="graph2" class="graph2" />
-              <img src="./assets/images/graph3.png" alt="graph" class="graph3" />
+              <img
+                src="./assets/images/hero.png"
+                alt="logo"
+                class="hero-img animate__animated animate__backInRight"
+              />
+              <img
+                src="./assets/images/graph1.png"
+                alt="graph1"
+                class="graph1 animate__animated animate__backInDown"
+              />
+              <img
+                src="./assets/images/graph2.png"
+                alt="graph2"
+                class="graph2 animate__animated animate__backInRight"
+              />
+              <img
+                src="./assets/images/graph3.png"
+                alt="graph"
+                class="graph3 animate__animated animate__backInUp"
+              />
             </div>
           </div>
         </div>
@@ -211,11 +231,11 @@
       <section class="slider-section">
         <div class="container-wrapper">
           <div class="slider-container">
-            <h2 class="slider-title">
+            <h2 class="slider-title animate__animated animate__backInLeft">
               6 Reasons
               <span> to Use Plerdy Data for a Website Usability Audit</span>
             </h2>
-            <div class="swiper swiper-slider">
+            <div class="swiper swiper-slider animate__animated animate__backInRight">
               <div class="swiper-wrapper swiper-list">
                 <div class="swiper-slide slide-item">
                   <div class="slider-box">
@@ -292,9 +312,8 @@
               </div>
 
               <div class="swiper-pagination"></div>
-
-              <div class="swiper-button-prev arrow-prev" aria-label="arrow-prev"></div>
-              <div class="swiper-button-next arrow-next" aria-label="arrow-next"></div>
+              <div class="swiper-button-prev arrow-prev"></div>
+              <div class="swiper-button-next arrow-next"></div>
             </div>
             <div class="slider-info">
               <button type="button" class="slider-info__btn" aria-label="open modal button">

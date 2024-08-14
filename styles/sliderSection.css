@@ -81,11 +81,12 @@
   padding: 20px;
   transition: var(--transition);
   outline: none;
+  cursor: pointer;
 }
 
 .slider-box:hover,
 .slider-box:focus {
-  box-shadow: 0 5px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: var(--shadow);
 }
 
 .slider-box h3 {
@@ -154,7 +155,7 @@
 .swiper-button-prev:focus,
 .swiper-button-next:hover,
 .swiper-button-next:hover {
-  background-color: var(--accent-color);
+  background-color: var(--hover);
 }
 
 
