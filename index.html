@@ -21,10 +21,7 @@
       href="https://cdn.jsdelivr.net/npm/intl-tel-input@23.8.1/build/css/intlTelInput.css"
     />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./styles/style.css" />
     <title>Plerdy</title>
   </head>
@@ -202,25 +199,24 @@
               </div>
             </div>
             <div class="hero-img__block">
-              <img
-                src="./assets/images/hero.png"
-                alt="logo"
-                class="hero-img animate__animated animate__backInRight"
-              />
+              <img src="./assets/images/hero.png" alt="logo" class="hero-img" data-aos="fade-up" />
               <img
                 src="./assets/images/graph1.png"
                 alt="graph1"
-                class="graph1 animate__animated animate__backInDown"
+                class="graph1"
+                data-aos="fade-down"
               />
               <img
                 src="./assets/images/graph2.png"
                 alt="graph2"
-                class="graph2 animate__animated animate__backInRight"
+                class="graph2"
+                data-aos="fade-left"
               />
               <img
                 src="./assets/images/graph3.png"
                 alt="graph"
-                class="graph3 animate__animated animate__backInUp"
+                class="graph3"
+                data-aos="fade-right"
               />
             </div>
           </div>
@@ -231,11 +227,11 @@
       <section class="slider-section">
         <div class="container-wrapper">
           <div class="slider-container">
-            <h2 class="slider-title animate__animated animate__backInLeft">
+            <h2 class="slider-title" data-aos="fade-right">
               6 Reasons
               <span> to Use Plerdy Data for a Website Usability Audit</span>
             </h2>
-            <div class="swiper swiper-slider animate__animated animate__backInRight">
+            <div class="swiper swiper-slider" data-aos="zoom-in">
               <div class="swiper-wrapper swiper-list">
                 <div class="swiper-slide slide-item">
                   <div class="slider-box">
@@ -344,5 +340,9 @@
     </script>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

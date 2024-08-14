@@ -31,8 +31,8 @@ intuitive navigation and engaging content sections.
   design features.
 - **Swiper.js**: Implements a touch-friendly slider for the services section, enhancing user
   experience with dynamic content presentation.
-- **Animate.css**: Adds smooth animations to various elements, improving visual engagement and user
-  experience.
+- **AOS (Animate On Scroll Library)**: Adds smooth animations to various elements, improving visual
+  engagement and user experience.
 
 ## Getting Started
 
