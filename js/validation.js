@@ -36,7 +36,6 @@ document.getElementById('myForm').addEventListener('submit', function (event) {
     }
   }
 
-  // Валідація чекбокса
   const checkbox = document.getElementById('checkbox');
   const checkboxLabel = document.querySelector('.form-conditions__text');
   if (!checkbox.checked) {

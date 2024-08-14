@@ -1,0 +1,109 @@
+.header {
+  padding: 14px 0;
+  border-bottom: 1px solid var(--border);
+  background: var(white)
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-list {
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.nav-item .nav-link {
+  padding: 0;
+  transition: var(--transition);
+}
+
+.nav-item:hover .nav-link,
+.nav-item:focus .nav-link {
+  color: var(--accent-color);
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--link);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%;
+}
+
+.burger-btn {
+  display: block;
+  padding: 0;
+  width: 32px;
+  height: 20px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.icon-burger use,
+.icon-close use {
+  stroke: var(--text-black);
+}
+
+.button-wrapper {
+  display: none;
+}
+
+.sign-btn,
+.mobile-sign-btn {
+  color: var(--accent-color);
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  transition: var(--transition);
+}
+
+.nav-btn,
+.mobile-nav-btn,
+.hero-button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 24px;
+  border: none;
+  cursor: pointer;
+  transition: all .3s ease;
+  border-radius: 8px;
+  background-color: var(--accent-color);
+  color: var(--white);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 160%;
+  outline: none;
+}
+
+.nav-btn:hover,
+.hero-button:hover {
+  background-color: var(--hover);
+}
+
+.sign-btn:hover {
+  color: var(--hover);
+}

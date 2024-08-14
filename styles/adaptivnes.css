@@ -12,30 +12,25 @@
   }
 
   .hero-img__block .graph1 {
-    display: block;
-    position: absolute;
-    top: 15px;
-    left: -20px;
     width: 190px;
     height: 150px;
+    top: 15px;
+    left: -20px;
+
   }
 
   .hero-img__block .graph2 {
-    display: block;
-    position: absolute;
-    top: 30px;
-    right: -20px;
     width: 163px;
     height: 103px;
+    top: 30px;
+    right: -20px;
   }
 
   .hero-img__block .graph3 {
-    display: block;
-    position: absolute;
-    bottom: -10px;
-    left: -45px;
     width: 190px;
     height: 130px;
+    bottom: -10px;
+    left: -45px;
   }
 }
 
@@ -166,7 +161,6 @@
     padding: 53px 64px 35px 51px;
     margin-top: 40px;
     margin-bottom: 50px;
-    /* gap: 106px; */
   }
 
   .hero-img__block {
@@ -215,5 +209,4 @@
   .button-wrapper {
     gap: 40px;
   }
-
 }

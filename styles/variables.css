@@ -1,0 +1,21 @@
+:root {
+  --bg-color: #F6F5F2;
+  --accent-color: #5D78FF;
+  --mainBlue: #001E41;
+  --hover: #3b54cf;
+  --text-black: #000;
+  --white: #FFF;
+  --link: #7D7D7D;
+  --border: #E5E5E5;
+  --error: red;
+  --gray: #909090;
+  --gradient: radial-gradient(161.19% 64% at 93% 52.6%, #482C98 0%, rgba(45, 30, 136, 0.00) 100%), #06054A;
+
+  --shadow: 0px 5px 20px 0px rgba(82, 69, 138, 0.30);
+  --overlay: rgba(0, 0, 0, 0.5);
+
+  --font-size-base: 14px;
+  --font-base: "Roboto", sans-serif;
+
+  --transition: all 0.3s ease;
+}
