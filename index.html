@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/intl-tel-input@23.8.1/build/css/intlTelInput.css"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Plerdy</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <a href="#" class="logo" aria-label="logo">
+            <img src="./assets/logos/logo.png" alt="logo" />
+          </a>
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#" class="nav-link">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Use Cases</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Book a Demo</a>
+            </li>
+          </ul>
+
+          <div class="button-wrapper">
+            <button type="button" class="sign-btn" aria-label="logo">Sign In</button>
+            <button
+              type="button"
+              class="nav-btn"
+              aria-label="logo"
+              data-toggle="modal"
+              data-target="#exampleModalCenter"
+            >
+              Contact sales
+            </button>
+          </div>
+
+          <button class="burger-btn" type="button" aria-label="burger-menu">
+            <svg width="32" height="20" class="icon-burger">
+              <use href="./assets/icons/icons.svg#icon-burger"></use>
+            </svg>
+          </button>
+
+          <!-- Mobile Menu -->
+          <div class="mobile-menu">
+            <button class="close-btn" type="button" aria-label="close-menu">
+              <svg width="30" height="30" class="icon-close">
+                <use href="./assets/icons/icons.svg#icon-cross"></use>
+              </svg>
+            </button>
+            <ul class="mobile-nav-list">
+              <li class="mobile-nav-item"><a href="#" class="mobile-nav-link">Pricing</a></li>
+              <li class="mobile-nav-item"><a href="#" class="mobile-nav-link">Use Cases</a></li>
+              <li class="mobile-nav-item"><a href="#" class="mobile-nav-link">Contact</a></li>
+            </ul>
+            <div class="mobile-button-wrapper">
+              <button type="button" class="mobile-sign-btn" aria-label="logo">Sign In</button>
+              <button type="button" class="mobile-nav-btn" aria-label="logo">Contact sales</button>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Modal -->
+    <div class="modal" id="exampleModalCenter">
+      <div class="modal-content">
+        <button class="modal-close" type="button" aria-label="burger-menu">
+          <svg width="20" height="20" class="icon-cross">
+            <use href="./assets/icons/icons.svg#icon-cross"></use>
+          </svg>
+        </button>
+        <div class="modal-body">
+          <div class="modal-container">
+            <div class="modal-image">
+              <img src="./assets/images/modalImg.png" alt="Sample Image" class="modal-img" />
+            </div>
+            <div class="modal-info">
+              <h1 class="modal-info__title">
+                How to do a Website Audit to Improve SEO & Conversions
+              </h1>
+              <p class="modal-info__text">You will get an SMS with a link to the webinar</p>
+              <form class="modal-form" id="myForm">
+                <div class="modal-form__group">
+                  <label for="name" class="modal-form__label">Name</label>
+                  <input
+                    class="modal-form__input"
+                    id="name"
+                    name="name"
+                    type="text"
+                    placeholder="Boris Johnson"
+                  />
+                  <div class="error-message name" id="nameError">This field is required</div>
+                </div>
+                <div class="modal-form__group">
+                  <label for="phone" class="modal-form__label">Phone</label>
+                  <input
+                    class="modal-form__input"
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    placeholder="XX XXX XXXX"
+                  />
+                  <div class="error-message name" id="phoneError">This field is required</div>
+                </div>
+                <div class="form-buttons">
+                  <button type="button" class="disabled-btn">Support</button>
+                  <button type="submit" class="active-btn">Contact sales</button>
+                </div>
+                <div class="form-conditions">
+                  <input type="checkbox" id="checkbox" name="checkbox" class="checkbox" />
+                  <label for="checkbox" class="form-conditions__text">
+                    By sending up? you agree to our
+                    <a class="conditions" href="#">Conditions</a> and
+                    <a class="conditions" href="#">Privacy Policy</a>
+                  </label>
+                </div>
+                <div class="form-logo">
+                  <svg width="30" height="20" class="logoSmall">
+                    <use href="./assets/icons/icons.svg#icon-logoSmall"></use>
+                  </svg>
+                  <p class="form-logo__text">Powered by Plerdy</p>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/index.js"></script>
+    <script src="./js/validation.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@23.8.1/build/js/intlTelInput.min.js"></script>
+    <script>
+      const input = document.querySelector('#phone');
+      window.intlTelInput(input, {
+        utilsScript: 'https://cdn.jsdelivr.net/npm/intl-tel-input@23.8.1/build/js/utils.js',
+        initialCountry: 'ua',
+        showSelectedDialCode: true,
+        separateDialCode: true,
+      });
+    </script>
+  </body>
+</html>

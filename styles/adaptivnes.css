@@ -1,0 +1,91 @@
+@media (min-width: 450px) {
+  .modal-form__input {
+    font-size: 14px;
+  }
+
+  .modal-form__label {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 768px) {
+  .header {
+    padding: 28px 0;
+  }
+
+  .burger-btn {
+    display: none;
+  }
+
+  .nav-list {
+    display: flex;
+  }
+
+  .button-wrapper {
+    display: flex;
+    gap: 10px;
+  }
+
+  .modal-info__title {
+    font-size: 34px;
+    line-height: 120%;
+  }
+}
+
+
+@media (min-width: 900px) {
+  .modal-image {
+    display: block;
+  }
+
+  .modal-info {
+    max-width: 50%;
+    gap: 24px;
+  }
+
+  .modal-form {
+    gap: 24px;
+  }
+
+  .modal-info__text {
+    font-size: 14px;
+  }
+
+  .form-buttons {
+    justify-content: space-between;
+  }
+
+  .form-logo {
+    position: absolute;
+    bottom: 30px;
+    left: 130px;
+  }
+
+  .form-conditions .form-conditions__text::before {
+    top: 7px;
+  }
+
+  .form-conditions .form-conditions__text.error-border::before {
+    top: 7px;
+  }
+
+  .form-conditions .form-conditions__text::after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 8px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .nav-list {
+    gap: 30px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .button-wrapper {
+    gap: 40px;
+  }
+
+}
