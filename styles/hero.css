@@ -1,3 +1,7 @@
+.hero {
+  padding-top: 70px;
+}
+
 .hero-content {
   display: flex;
   flex-direction: column;
