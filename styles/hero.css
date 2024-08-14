@@ -72,9 +72,11 @@
   outline: none;
   margin-bottom: 20px;
   align-self: center;
+  outline: none;
 }
 
-.hero-button:hover {
+.hero-button:hover,
+.hero-button:focus {
   background-color: var(--hover);
 }
 

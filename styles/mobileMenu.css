@@ -41,10 +41,12 @@
   font-size: 24px;
   color: var(--text-main);
   text-decoration: none;
-  transition: color 0.3s ease;
+  transition: var(--transition);
+  outline: none;
 }
 
-.mobile-nav-link:hover {
+.mobile-nav-link:hover,
+.mobile-nav-link:focus {
   color: var(--accent-color);
 }
 

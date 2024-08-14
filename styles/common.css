@@ -19,6 +19,8 @@ body {
   scroll-behavior: unset;
 }
 
+
+
 main {
   flex-grow: 1;
 }
@@ -70,6 +72,10 @@ body::-webkit-scrollbar {
 body::-webkit-scrollbar-thumb {
   background: var(--white);
   border-radius: 5px;
+}
+
+.no-scroll {
+  overflow: hidden;
 }
 
 .container {

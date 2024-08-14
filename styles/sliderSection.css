@@ -55,9 +55,11 @@
   cursor: pointer;
   transition: var(--transition);
   margin-bottom: 10px;
+  outline: none;
 }
 
-.slider-info button:hover {
+.slider-info button:hover,
+.slider-info button:focus {
   background-color: var(--hover);
 }
 
@@ -78,9 +80,11 @@
   position: relative;
   padding: 20px;
   transition: var(--transition);
+  outline: none;
 }
 
-.slider-box:hover {
+.slider-box:hover,
+.slider-box:focus {
   box-shadow: 0 5px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -133,6 +137,7 @@
   transition: all .3s ease;
   padding: 4px !important;
   top: 30px !important;
+  outline: none !important;
 }
 
 .swiper-button-prev::after,
@@ -146,11 +151,14 @@
 }
 
 .swiper-button-prev:hover,
+.swiper-button-prev:focus,
+.swiper-button-next:hover,
 .swiper-button-next:hover {
   background-color: var(--accent-color);
 }
 
-@media (min-width: 450px) {
+
+@media (min-width: 768px) {
   .slider-info {
     flex-direction: row;
   }
@@ -159,9 +167,7 @@
     margin-right: 20px;
     margin-bottom: 0;
   }
-}
 
-@media (min-width: 768px) {
   .slider-title {
     font-size: 36px;
   }

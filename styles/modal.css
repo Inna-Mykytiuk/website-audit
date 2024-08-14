@@ -60,10 +60,11 @@
   border: none;
   padding: 5px;
   transition: var(--transition);
-
+  outline: none;
 }
 
-.modal-close:hover {
+.modal-close:hover,
+.modal-close:focus {
   color: var(--accent-color);
 }
 
