@@ -1,0 +1,143 @@
+/* .hero {} */
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background: #E2F2FF;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 20px 10px;
+}
+
+
+.hero-content__wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+
+.hero-info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-info__title {
+  max-width: 100%;
+  color: #001E41;
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: 0.64px;
+  margin-bottom: 20px;
+}
+
+.hero-info__text {
+  color: #001E41;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+
+.hero-info__subtext {
+  color: #909090;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.035px;
+  margin-bottom: 20px;
+}
+
+
+.hero-button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 183px;
+  padding: 8px 24px;
+  border: none;
+  cursor: pointer;
+  transition: all .3s ease;
+  border-radius: 8px;
+  background-color: #5D78FF;
+  color: white;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.08px;
+  outline: none;
+  margin-bottom: 20px;
+  align-self: center;
+}
+
+.hero-button:hover {
+  background-color: #3b54cf;
+}
+
+.hero-logos {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.hero-logos__text {
+  align-self: center;
+  color: #001E41;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+
+.hero-logos__list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+}
+
+/* .hero-logos__item {} */
+
+.hero-img__block {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: 100%
+}
+
+.hero-img {
+  width: 70%;
+  object-fit: cover;
+}
+
+.hero-img__block .graph1 {
+  display: none;
+  position: absolute;
+  width: 190px;
+  height: 150px;
+}
+
+.hero-img__block .graph2 {
+  display: none;
+  position: absolute;
+  width: 163px;
+  height: 103px;
+}
+
+.hero-img__block .graph3 {
+  display: none;
+  position: absolute;
+  width: 190px;
+  height: 130px;
+}

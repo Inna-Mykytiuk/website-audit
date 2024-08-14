@@ -6,6 +6,37 @@
   .modal-form__label {
     font-size: 12px;
   }
+
+  .hero-content {
+    padding: 20px 40px;
+  }
+
+  .hero-img__block .graph1 {
+    display: block;
+    position: absolute;
+    top: 15px;
+    left: -20px;
+    width: 190px;
+    height: 150px;
+  }
+
+  .hero-img__block .graph2 {
+    display: block;
+    position: absolute;
+    top: 30px;
+    right: -20px;
+    width: 163px;
+    height: 103px;
+  }
+
+  .hero-img__block .graph3 {
+    display: block;
+    position: absolute;
+    bottom: -10px;
+    left: -45px;
+    width: 190px;
+    height: 130px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -29,6 +60,53 @@
   .modal-info__title {
     font-size: 34px;
     line-height: 120%;
+  }
+
+  .hero-content__wrapper {
+    max-width: 665px;
+    justify-content: space-between;
+  }
+
+  .hero-info__title {
+    max-width: 611px;
+    font-size: 40px;
+    letter-spacing: 0.8px;
+    margin-bottom: 16px;
+  }
+
+  .hero-info__text {
+    font-size: 16px;
+    margin-bottom: 6px;
+  }
+
+  .hero-info__subtext {
+    font-size: 14px;
+    margin-bottom: 16px;
+  }
+
+  .hero-button {
+    font-size: 16px;
+  }
+
+  .hero-logos__text {
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.08px;
+  }
+
+  .hero-img__block .graph1 {
+    top: 15px;
+    left: 55px;
+  }
+
+  .hero-img__block .graph2 {
+    top: 70px;
+    right: 65px;
+  }
+
+  .hero-img__block .graph3 {
+    bottom: 90px;
+    left: 20px;
   }
 }
 
@@ -80,6 +158,56 @@
 @media (min-width: 1280px) {
   .nav-list {
     gap: 30px;
+  }
+
+  .hero-content {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 53px 64px 35px 51px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    /* gap: 106px; */
+  }
+
+  .hero-img__block {
+    max-width: 370px;
+  }
+
+  .hero-img {
+    width: 100%;
+  }
+
+  .hero-button {
+    margin-bottom: 0;
+    align-self: self-start;
+  }
+
+  .hero-logos__text {
+    align-self: self-start;
+  }
+
+  .hero-logos {
+    margin-bottom: 0;
+  }
+
+  .hero-logos__list {
+    justify-content: flex-start;
+    gap: 24px;
+  }
+
+  .hero-img__block .graph1 {
+    top: -50px;
+    left: -65px;
+  }
+
+  .hero-img__block .graph2 {
+    top: 50px;
+    right: -50px;
+  }
+
+  .hero-img__block .graph3 {
+    bottom: 90px;
+    left: -120px;
   }
 }
 

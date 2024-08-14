@@ -6,9 +6,21 @@ document.querySelector('.close-btn').addEventListener('click', function () {
   document.querySelector('.mobile-menu').classList.remove('active');
 });
 
+document.querySelector('.mobile-nav-btn').addEventListener('click', function () {
+  document.querySelector('.mobile-menu').classList.remove('active');
+  openModal();
+});
+
+const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
+mobileNavLinks.forEach(link => {
+  link.addEventListener('click', function () {
+    document.querySelector('.mobile-menu').classList.remove('active');
+  });
+});
+
 /*modal window*/
 const modal = document.getElementById('exampleModalCenter');
-const openModalButtons = document.querySelectorAll('[data-toggle="modal"]');
+const openModalButtons = document.querySelectorAll('[data-toggle="modal"], .hero-button, mobile-nav-btn');
 const closeModalButton = document.querySelector('.modal-close');
 
 const openModal = () => {
