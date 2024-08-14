@@ -36,6 +36,7 @@ document.getElementById('myForm').addEventListener('submit', function (event) {
     }
   }
 
+
   const checkbox = document.getElementById('checkbox');
   const checkboxLabel = document.querySelector('.form-conditions__text');
   if (!checkbox.checked) {
@@ -48,6 +49,7 @@ document.getElementById('myForm').addEventListener('submit', function (event) {
   if (isValid) {
     alert('Форма відправлена успішно!');
     document.getElementById('myForm').reset();
+    closeModal();
   }
 });
 
