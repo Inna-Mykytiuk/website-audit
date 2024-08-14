@@ -57,10 +57,6 @@
     line-height: 120%;
   }
 
-  .hero {
-    padding-top: 100px;
-  }
-
   .hero-content__wrapper {
     max-width: 665px;
     justify-content: space-between;

@@ -49,7 +49,7 @@ document.getElementById('myForm').addEventListener('submit', function (event) {
   if (isValid) {
     alert('Форма відправлена успішно!');
     document.getElementById('myForm').reset();
-    closeModal();
+    // closeModal();
   }
 });
 

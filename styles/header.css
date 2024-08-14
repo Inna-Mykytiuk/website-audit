@@ -1,9 +1,9 @@
 .header {
-  position: fixed;
+  position: sticky;
+  display: flex;
   width: 100%;
   top: 0;
-  left: 0;
-  z-index: 100;
+  z-index: 1000;
   padding: 14px 0;
   border-bottom: 1px solid var(--border);
   background: var(--white)
